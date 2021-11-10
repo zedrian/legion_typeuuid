@@ -12,7 +12,7 @@ collect = ["inventory"]
 legion = { git = "https://github.com/amethyst/legion", default-features = false, features = ["serialize"] }
 uuid = "0.8"
 serde = { version = "1.0", features = ["derive"] }
-inventory = { version = "0.1", optional = true }
+inventory = { version = "0.2", optional = true }
 type-uuid = { version = "0.1", optional = true }
 
 [dev-dependencies]
